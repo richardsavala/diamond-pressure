@@ -58,6 +58,7 @@ header {
 .logo {
     color: whitesmoke;
     margin-left: 10px;
+    height: 200px;
 }
 
 .logo span {
@@ -146,4 +147,18 @@ header {
 .left,
 .right {
     flex: 1
+}
+
+footer {
+    height: 400px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logo {
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
