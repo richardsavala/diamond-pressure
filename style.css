@@ -32,18 +32,28 @@ header {
 .menu {
     display: flex;
     font-size: 20px;
-    color: #249DD2;
+    color: aliceblue;
     align-items: center;
 }
 
-.menu span {
-    margin-right: 50px;
+.menu a {
+    margin-right: 40px;
     margin-bottom: 65px;
     cursor: pointer;
+    background-color: #249DD2;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.2s all ease-in-out;
+    scroll-behavior: smooth;
+}
+
+.menu a:hover {
+    color: #249DD2;
+    background-color: aliceblue;
 }
 
 .contact {
-    background-color: #b8860b;
+    background-color: #249DD2;
     padding: 8px 15px;
     border-radius: 20px;
     cursor: pointer;
@@ -53,6 +63,7 @@ header {
 }
 
 .contact:hover {
+    color: #249DD2;
     background-color: aliceblue;
 }
 
@@ -179,7 +190,7 @@ footer .logo {
 }
 
 .footer-navbar span:hover {
-    color: #b8860b;
+    color: #249DD2;
 }
 
 footer .social-media {
