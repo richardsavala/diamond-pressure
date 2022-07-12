@@ -36,7 +36,7 @@ header {
     align-items: center;
 }
 
-.menu a {
+.menu span {
     margin-right: 40px;
     margin-bottom: 65px;
     cursor: pointer;
@@ -47,7 +47,7 @@ header {
     scroll-behavior: smooth;
 }
 
-.menu a:hover {
+.menu span:hover {
     color: #249DD2;
     background-color: aliceblue;
 }
