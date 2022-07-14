@@ -12,7 +12,7 @@ header img {
     background-color: black;
     height: 100vh;
     min-height: 80vh;
-    background-position: center bottom;
+    background-position: center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ header {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 5px;
+    margin-top: 25px;
     flex-direction: column;
 }
 
@@ -38,7 +38,7 @@ header {
 }
 
 .menu a {
-    margin-right: 40px;
+    margin-top: 25px;
     margin-bottom: 65px;
     cursor: pointer;
     background-color: #249DD2;
@@ -98,6 +98,7 @@ header {
     font-size: 50px;
     color: aliceblue;
     flex-grow: 1;
+    text-align: center;
 }
 
 #section-1 {
@@ -220,6 +221,6 @@ footer .social-media img {
 @media only screen and (min-width: 768px) {
     /* For desktops: */
     [class*="header"] {
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
 }
