@@ -34,6 +34,7 @@ header {
     font-size: 20px;
     color: aliceblue;
     align-items: center;
+    font-weight: bold;
 }
 
 .menu a {
@@ -51,6 +52,16 @@ header {
 .menu a:hover {
     color: #249DD2;
     background-color: aliceblue;
+}
+
+.menu a:visited {
+    text-decoration: none;
+    color: aliceblue
+}
+
+.menu a:visited:hover {
+    text-decoration: none;
+    color: #249DD2
 }
 
 .contact {
