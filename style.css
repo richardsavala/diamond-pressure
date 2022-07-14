@@ -5,14 +5,13 @@
 }
 
 header img {
-    margin-top: 100px;
+    max-height: 100px;
 }
 
 .banner {
     background-color: black;
     height: 100vh;
     min-height: 80vh;
-    background-image: url('/assets/pic-1.png');
     background-position: center bottom;
     background-size: cover;
     display: flex;
@@ -27,6 +26,7 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 5px;
+    flex-direction: column;
 }
 
 .menu {
@@ -212,4 +212,14 @@ footer .social-media {
 
 footer .social-media img {
     height: 30px;
+}
+
+
+/* media queries */
+
+@media only screen and (min-width: 768px) {
+    /* For desktops: */
+    [class*="header"] {
+        flex-direction: column-reverse;
+    }
 }
