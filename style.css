@@ -27,7 +27,7 @@ header img {
 header {
     height: 150px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -45,6 +45,7 @@ header {
 
 .menu a {
     margin-right: 5%;
+    margin-left: 5%;
     margin-top: 25px;
     margin-bottom: 65px;
     cursor: pointer;
