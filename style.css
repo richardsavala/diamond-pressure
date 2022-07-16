@@ -54,7 +54,7 @@ header {
     text-decoration: none;
 }
 
-.menu:link {
+.menu a:link {
     color: aliceblue;
     text-decoration: none;
 }
