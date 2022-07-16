@@ -4,6 +4,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+body {
+    overflow-y: auto;
+}
+
 header img {
     max-height: 100px;
 }
@@ -50,6 +54,11 @@ header {
     text-decoration: none;
 }
 
+.menu:link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
 .menu a:hover {
     color: #249DD2;
     background-color: aliceblue;
@@ -58,11 +67,6 @@ header {
 .menu a:visited {
     text-decoration: none;
     color: aliceblue
-}
-
-.menu a:visited:hover {
-    text-decoration: none;
-    color: #249DD2
 }
 
 .contact {
