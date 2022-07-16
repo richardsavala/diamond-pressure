@@ -148,6 +148,11 @@ a:visited {
     margin-bottom: 8px;
 }
 
+.right h3:link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .left,
 .right {
     flex: 1
