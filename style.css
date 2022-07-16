@@ -69,7 +69,8 @@ header {
 
 .menu a:visited {
     text-decoration: none;
-    color: aliceblue
+    color: aliceblue;
+    background-color: #249DD2;
 }
 
 .contact {
