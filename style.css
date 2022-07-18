@@ -88,6 +88,7 @@ a:visited {
 #section-1 {
     display: flex;
     height: 350px;
+    flex-direction: column;
 }
 
 #section-1 img {
@@ -124,6 +125,7 @@ a:visited {
 #section-2 {
     display: flex;
     height: 350px;
+    flex-direction: column;
 }
 
 #section-2 img {
@@ -133,7 +135,6 @@ a:visited {
 }
 
 #section-2 .right {
-    display: flex;
     align-items: center;
     justify-content: center;
 }
