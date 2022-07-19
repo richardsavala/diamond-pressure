@@ -93,32 +93,37 @@ a:visited {
 
 #section-1 img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
-#section-1 .left {
+#section-1 .top {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#section-1 .text-container {
+#section-1 .bottom .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-1 .bottom .text-container {
     width: 50%;
 }
 
-.left {
+.top {
     background-color: black;
     color: aliceblue;
 }
 
-.left h1 {
+.bottom h1 {
     font-size: 30px;
     margin-bottom: 8px;
 }
 
-.left,
-.right {
+.top,
+.bottom {
     flex: 1
 }
 
@@ -134,7 +139,8 @@ a:visited {
     object-fit: cover;
 }
 
-#section-2 .right {
+#section-2 .bottom {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -143,20 +149,15 @@ a:visited {
     width: 80%;
 }
 
-.right {
+.bottom {
     background-color: black;
     color: aliceblue;
     line-height: 1.3;
 }
 
-.right h1 {
+.bottom h1 {
     font-size: 30px;
     margin-bottom: 8px;
-}
-
-.left,
-.right {
-    flex: 1
 }
 
 h3 {
