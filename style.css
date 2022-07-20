@@ -96,20 +96,8 @@ a:visited {
     object-fit: cover;
 }
 
-#section-1 .top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#section-1 .bottom .text-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#section-1 .bottom .text-container {
-    width: 50%;
+.text-container {
+    text-align: center;
 }
 
 .top {
@@ -191,12 +179,12 @@ footer img {
     font-weight: bold;
 }
 
-.footer-navbar span {
+.footer-navbar a {
     padding: 15px;
     cursor: pointer;
 }
 
-.footer-navbar span:hover {
+.footer-navbar a:hover {
     color: #249DD2;
 }
 
