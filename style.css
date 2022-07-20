@@ -177,15 +177,20 @@ footer img {
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 
-.footer-navbar a {
-    padding: 15px;
-    cursor: pointer;
+.footer-navbar a:link {
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .footer-navbar a:hover {
     color: #249DD2;
+    text-decoration: none;
 }
 
 footer .social-media {
@@ -202,12 +207,15 @@ footer .social-media img {
 
 @media only screen and (min-width: 768px) {
     /* For desktops: */
-    [class*="header"] {
+    [id*="header"] {
         flex-direction: row;
     }
     [class*="banner"] {
         background-image: url('/assets/diamond-pressure-logo-2.png');
         background-repeat: no-repeat;
         background-size: auto;
+    }
+    [class*="body"] {
+        min-height: 100vh;
     }
 }
