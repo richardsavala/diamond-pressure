@@ -46,6 +46,7 @@ header {
     font-size: 20px;
     align-items: center;
     font-weight: bold;
+    height: 350px;
 }
 
 .menu a {
@@ -56,6 +57,7 @@ header {
     transition: 0.2s all ease-in-out;
     scroll-behavior: smooth;
     text-decoration: none;
+    font-size: smaller;
 }
 
 .menu a:link {
@@ -83,21 +85,26 @@ a:visited {
     color: aliceblue;
     flex-grow: 1;
     text-align: center;
+    height: 250px;
 }
 
 #section-1 {
     display: flex;
-    height: 350px;
+    height: 700px;
     flex-direction: column;
 }
 
 #section-1 img {
     width: 100%;
     object-fit: cover;
+    height: 350px;
 }
 
-.text-container {
+#section-1 .text-container {
     text-align: center;
+    margin: auto;
+    width: 80%;
+    flex: 1;
 }
 
 .top {
@@ -123,7 +130,7 @@ a:visited {
 
 #section-2 img {
     width: 100%;
-    height: 100%;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -135,6 +142,8 @@ a:visited {
 
 #section-2 .text-container {
     width: 80%;
+    height: 350px;
+    text-align: center;
 }
 
 .bottom {
@@ -162,6 +171,7 @@ footer {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 10ox;
 }
 
 footer .logo {
@@ -207,6 +217,9 @@ footer .social-media img {
 
 @media only screen and (min-width: 768px) {
     /* For desktops: */
+    [class*="body"] {
+        min-height: 100vh;
+    }
     [id*="header"] {
         flex-direction: row;
     }
@@ -215,30 +228,30 @@ footer .social-media img {
         background-repeat: no-repeat;
         background-size: auto;
     }
-    [class*="body"] {
-        min-height: 100vh;
+    [class*="main"] {
+        margin-bottom: 350px;
+    }
+    [id*="section-1"] {
+        flex-direction: row;
+    }
+    [id*="section-1 img"] {
+        height: 100%;
+    }
+    [id*="section-2"] {
+        margin-top: 350px;
+    }
+    [class*="bottom"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    [class*="footer"] {
+        margin-bottom: 350px;
     }
 }
 
 
-/* .section-1 {
-    display: flex;
-    height: 350px;
-}
-
-.section-1 img {z
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.section-1 .left {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-1 .text-container {
+/* .section-1 .text-container {
     width: 70%;
 }
 
