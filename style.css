@@ -107,6 +107,12 @@ a:visited {
     padding-top: 85px;
 }
 
+#section-1 .bottom {
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+}
+
 .top {
     background-color: black;
     color: aliceblue;
@@ -223,46 +229,26 @@ footer .social-media img {
         background-repeat: no-repeat;
         background-size: auto;
     }
-    [class*="main"] {
-        margin-bottom: 350px;
-    }
     [id*="section-1"] {
-        display: flex;
-        height: 350px;
         flex-direction: row;
+        height: 350px;
     }
-    [id*="section-1 img"] {
-        height: 100%;
-        width: 100%;
-    }
-    [clasS*="text-container"] {
-        height: 100%;
-        width: 100%;
-    }
-    [id*="section-2"] {
-        display: flex;
+    [class*="top"] {
+        width: 50%;
     }
     [class*="bottom"] {
-        display: flex;
         align-items: center;
         justify-content: center;
+        width: 50%;
     }
-    [class*="footer-navbar"] {
-        her
+    [class*="top"] {
+        flex: 1;
+    }
+    [class*="bottom"] {
+        flex: 1;
+    }
+    [id*="section-2"] {
+        flex-direction: row;
+        height: 350px;
     }
 }
-
-
-/* .section-1 .text-container {
-    width: 70%;
-}
-
-.bottom {
-    background-color: black;
-    color: aliceblue;
-}
-
-.bottom h1 {
-    font-size: 30px;
-    margin-bottom: 8px;
-} *
