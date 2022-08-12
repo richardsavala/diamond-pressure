@@ -111,6 +111,7 @@ a:visited {
     align-items: center;
     justify-content: center;
     height: 175px;
+    flex-direction: row;
 }
 
 .top {
@@ -228,27 +229,23 @@ footer .social-media img {
         background-image: url('/assets/diamond-pressure-logo-2.png');
         background-repeat: no-repeat;
         background-size: auto;
-    }
-    [id*="section-1"] {
-        flex-direction: row;
-        height: 350px;
-    }
-    [class*="top"] {
-        width: 50%;
+        height: 50vh;
+        min-height: 600px;
     }
     [class*="bottom"] {
+        display: flex;
         align-items: center;
         justify-content: center;
-        width: 50%;
     }
-    [class*="top"] {
-        flex: 1;
-    }
-    [class*="bottom"] {
-        flex: 1;
-    }
-    [id*="section-2"] {
+}
+
+@media only screen and (min-width: 768px) {
+    #section-1 {
         flex-direction: row;
-        height: 350px;
+        height: 258px;
+    }
+    #section-2 {
+        flex-direction: row-reverse;
+        height: 258px;
     }
 }
